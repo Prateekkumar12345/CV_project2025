@@ -32,6 +32,21 @@ The **Multi-Functional Car Insurance App** is a comprehensive AI-powered solutio
 - **Computer Vision**: OpenCV, YOLOv8  
 
 ---
+## Project Structure
+```bash
+car-insurance-app/
+├── app.py                      # Main Streamlit application
+├── car_insurance_assistant.py  # Insurance chatbot module
+├── car_damage_detection.py     # Vehicle damage detection logic
+├── face_recognition.py         # Facial recognition and verification
+├── number_plate_detection.py   # License plate detection using OCR
+├── Basic Coverage Types.txt    # Knowledge base for assistant
+├── requirements.txt            # Python dependencies
+├── .env                        # API keys and secrets (user-generated)
+└── README.md                   # Project overview (this file)
+
+
+
 
 ## Installation
 
