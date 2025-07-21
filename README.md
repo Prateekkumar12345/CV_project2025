@@ -1,36 +1,42 @@
- ## Project Description
-The Multi-Functional Car Insurance App is a comprehensive solution that integrates multiple AI-powered features to streamline car insurance processes. This application combines four key functionalities:
+# Multi-Functional Car Insurance App
 
-Car Insurance Assistant: An AI chatbot that provides detailed explanations about car insurance policies, terms, and processes using natural language processing.
+## Project Description
 
-Car Damage Detection: A computer vision system that analyzes vehicle videos to detect and assess damage (scratches, dents, rust, etc.) and generates comprehensive damage reports.
+The **Multi-Functional Car Insurance App** is a comprehensive AI-powered solution that streamlines various aspects of car insurance. The application integrates multiple intelligent features including:
 
-Face Recognition: A secure user verification system that registers and authenticates users through facial recognition and number plate matching.
+- **Car Insurance Assistant**: An AI chatbot that answers queries related to car insurance policies, processes, and terminology using NLP.
+- **Car Damage Detection**: A computer vision module that analyzes vehicle videos to detect and assess visible damages (scratches, dents, rust, etc.).
+- **Face Recognition**: A biometric verification system for registering and authenticating users via facial recognition combined with number plate matching.
+- **Number Plate Detection**: Automatically extracts and identifies vehicle number plates from video footage using OCR.
 
-Number Plate Detection: An automated system that extracts vehicle number plates from video footage using OCR technology.
+---
 
- ## Key Features
-AI-Powered Insurance Assistant: Leverages Groq's LLaMA model and RAG pipeline to provide accurate insurance information
+## Key Features
 
-Damage Assessment: Uses YOLOv8 models to detect and classify vehicle damage with severity scoring
+- ✅ **AI-Powered Insurance Assistant**: Utilizes Groq's LLaMA model and a RAG pipeline to provide accurate insurance-related information.
+- ✅ **Damage Assessment System**: Employs YOLOv8 to detect, localize, and classify different types of car damage with severity scores.
+- ✅ **Biometric User Authentication**: Combines face recognition and number plate matching for secure user verification.
+- ✅ **Number Plate Recognition**: Uses EasyOCR and custom regex pattern matching for precise license plate detection.
+- ✅ **Comprehensive Reporting**: Generates damage reports with annotated visual evidence.
+- ✅ **User Management**: Secure storage of user profiles and facial encodings using SQLite.
 
-Biometric Verification: Combines face recognition with number plate matching for secure authentication
+---
 
-Automated Plate Recognition: Implements EasyOCR and custom pattern matching for accurate plate detection
+## Technologies Used
 
-Comprehensive Reporting: Generates detailed damage assessment reports with visual evidence
+- **Backend**: Python, Streamlit  
+- **AI/ML Models**: YOLOv8, OpenCV, Haarcascades, EasyOCR  
+- **NLP & LLMs**: Groq LLaMA-3, LangChain, RAG pipeline  
+- **Database**: SQLite  
+- **APIs**: OCR.space API  
+- **Computer Vision**: OpenCV, YOLOv8  
 
-User Management: Secure database storage for user profiles with facial encodings
+---
 
- ## Technologies Used
-Backend: Python, Streamlit
+## Installation
 
-AI/ML: YOLOv8, OpenCV, EasyOCR, HuggingFace Embeddings
+1. **Clone the repository**
 
-NLP: Groq LLaMA-3, LangChain, RAG pipeline
-
-Database: SQLite
-
-APIs: OCR.space API
-
-Computer Vision: OpenCV, Haarcascades
+```bash
+git clone https://github.com/yourusername/car-insurance-app.git
+cd car-insurance-app
